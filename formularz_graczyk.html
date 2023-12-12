@@ -1,34 +1,106 @@
-﻿<!DOCTYPE html>
-	<html lang="pl-PL">
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title> formularz Grazcyk </title>
-		</head>
-		<body>
-		<form>
-			<table>
-				<TR height="100">
-					<TD width="200"> <br><br>
-<fieldset bgcolor=#9e9898>
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+  <head>
+    <meta charset="utf-8">
+  <title>Formularz Graczyk</title>
+  </head>
+<body>
+<body bgcolor="#ffffff">
+<fieldset bgcolor="grey">
+<center size="20"><h1>Formularz o najpopularniejszych grach komputerowych</h1></center>
+</fieldset>
+  <TABLE>
+<TR>
+ <TD width=850>
+
+  <center><font size=><nobr><u>Czy był/była pan/pani kiedyś karana?</u></nobr>
 <br><br>
-<input type="checkbox" name="płeć" value="k"> kobieta
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+    &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+    </font></center>
+   <br><br><br>
+    <center><font size=4><nobr><u>Czy pracował/a pan/pani w swojim zawodzie?</u></nobr>
 <br><br>
-<input type="checkbox" name="płeć" value="m"> mężczyzna
-</fieldset> </TD>
-					<TD width="300" color="red"> Na wszystkie pytania odpowiadaj <br> według swoich doświdczeń</TD>
-					<TD width="500"><b>Email(obowiązkowo)</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp 
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="Email(obowiązkowo)" size="22"> 
-			<br><br>
-						<b>Nr. tel</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22"> 
-					</TD>
-			</table>
-		</form>
-Tutaj będzię formularz <br>
-<A HREF="index.html"> Wróć </A>
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+      &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+    </font></center>
+   <br><br><br>
+    <center><font size=4><nobr><u>Czy posiada pan/pani ponad 5-letni staż w swojim zawodzie?</u></nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+      &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+    </font></center>
+   <br><br><br>
+   <center><font size=4><nobr><u>Czy mieszka pan/pani w mieście, w którym znajduję się siedziba firmy?</u></nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+     &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+   </font></center>
+   <br><br><br>
+   <center><font size=4><nobr><u>Czy przeszkadza panu/pani działanie w zespole?</u></nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+     &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+    </font></center>
+   <br><br><br>
+   <center><font size=4><nobr><u>Czy umie pan/pani obsługiwać komputer, w tym pakiet Office?</u></nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> <b>Tak</b></input>
+     &nbsp&nbsp
+<input type="radio" name="pyt3" value="nie"> <b>Nie</b></input>
+    </font></center>
+   <br><br>
+   <p align=left><font size=3>* poprawne odpowiedzi zaznaczmy kropką.</font></p>
+   <br><br><br>
+   <center><nobr><input type="reset" value="Reset" style="height:50px; width:100px"></center>
+ </TD> 
+
+   <TD>
+     <p align=center><font size=5><b>DANE KONTAKTOWE</b></font></p>
+   <b>Proszę podać imię</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="imie" size="22"> 
+ <br><br>
+ <b>Proszę podać nazwisko</b>&nbsp&nbsp&nbsp&nbsp<input name="nazwisko" size="22"> 
+ <br><br>
+ <b>Numer telefonu</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="numer size="25"> 
+ <br><br>
+ <b>Adres e-mail</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="email" size="22"><nobr> 
+<br><br><br>
+   <center><font size="4" color="326647"><b>Na jakie stanowisko w naszej firmie bierze pan/pani udział w rekritacji?</b></font></center><br>
+ <center> <select>
+ <option value="informatyk">  Informatyk  </option>
+ <option value="elektronik">Elektronik</option>
+ <option value="architekt">Architekt</option>
+ <option value="hydraulik">Hydraulik</option>
+ <option value="inżynier">Inżynier</option>
+ <option value="prezes">Prezes</option>
+ </select> </center>
+   <br><br><br>
+   <nobr>Proszę o podanie pełnej nazwy kwalifikacji zawodowej. Max: 
+100<br>znaków.</nobr>
+<br>
+<input name="inna" size="25" maxlength="100">
+   <br><br><br>
+   <b> W polu poniżej <br>Napisz coś o sobie.</b> 
+   <br> 
+   <textarea cols="50" rows="4"></textarea>
+   <br><br>
+   podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br> 
+   <br>
+ podaj datę &nbsp &nbsp &nbsp&nbsp &nbsp<input type="date"> <br> 
+ <br><br><br>
+   <center><input type="submit" value="Wyślij formularz" style="height:50px; width:120px"></center>
+ </TD>
+ </TR>
 
 
-		</body>
-	</html>
+   
+
+  <A HREF="zadanie 3i4.html"> WRÓĆ DO POPRZEDNIEJ STRONY </A></LI>
+</body>
+</html>
