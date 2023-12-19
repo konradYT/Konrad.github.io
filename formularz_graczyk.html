@@ -1,114 +1,155 @@
+
 <!DOCTYPE html>
 <html lang="pl-PL">
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-  <title>Formularz Graczyk</title>
-  </head>
-<body>
-<body bgcolor="#ffffff">
-<fieldset bgcolor="grey">
-<center size="20"><h1>Formularz o najpopularniejszych grach komputerowych</h1></center>
-</fieldset >
-  <TABLE>
-<TR>
- <TD width=1700>
+    <title> ZADANIE FORMULARZ </title>
+</head>
 
-<fieldset>
-<br><br>
-<center><font size=4><nobr><u>jakiej płci jestes</u></nobr>
-<input type="checkbox" checked> <b>Mężczyzna</b> 
-    &nbsp&nbsp
-<input type="radio" name="pyt3" value="kobieta"> <b>Kobieta<br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Email</b><input name="imeil" size="22">  </input>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Nr.tel.</b><input name="numer" size="22">  </b></input>
-</fieldset>
-    </font></center>
-   <br><br><br>
-</fieldset>
-  <fieldset bgcolor="grey">
-<center size="20"><h1>Counter-Strike 2</h1></center>
-</fieldset>
-  <fieldset>
-    <center><font size=4><nobr><u>Czy grałeś w CS2?</u></nobr>
-<br><br>
+<body style="background-color:ffffff;">
+    <fieldset align="center">
+        <font align="center" size="6">Formularz o najpopularniejszych grach komputerowych</font>
+    </fieldset>
+    <form>
+        <table width="100%">
+            <tr>
+                <td width="30%" align="left" valign="top">
+                    <fieldset>
+                        <legend>płeć</legend>
+                        <input type="radio"  name="meżczyzna" value="plec">kobieta <br>
+                        <input type="text"  name="kobieta" value="plec">mężczyzna <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Nick w grze i super sekretne hasło (NIE KONTA MINECRAFT)</legend>
+                        <input type="text" id="nick" name="nick" maxlength="16" value="" placeholder="max. 16 znaków">
+                        <input type="password" name="passcode" id="pass">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Poziom zaawansowania w trybie PvP:</legend>
 
-<input type="radio" name="cs" value="tak"> <b>Grałem już 
-      &nbsp&nbsp
-<input type="radio" name="cs" value="nie"> <b>Jeszcze nie grałem ale chce 
-      
-<input type="radio" name="cs" value="nie"> <b>Nie grałem i nie zamierzam 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Otworzyłeś skrzynke w cs <input type="radio" name="cs" >tak <input type="radio" name="cs" value="tak">nie <br> </b></input>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Jeżeli tak: <br>
-czy zwróciło siętak <input type="circle" name="cs" >nie </b></input>
-i ile <input name="numer" size="22"></b></input>
-     &nbsp&nbsp
+                        <input type="radio" id="level_noob" name="level" value="noob">
+                        <label for="level_noob">początkujący</label><br>
 
-    </font></center>
-  </fieldset>
-   <br><br><br>
-<fieldset>
-    <center size="20"><h1>Fortnite Battle Royale</h1></center>
-</fieldset>
-  <fieldset >
-    <center><font size=4><nobr><u>widziałeś/słyszałej już o tej grze? 
-<input type="radio" name="ft" value="tak"> <b>tak</b></input>
-      &nbsp&nbsp
-<input type="radio" name="ft" value="nie"> <b>nie</b></input> 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Zacząłem grać w rozdziale?:</u></nobr>
-<br><br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="ft" value="tak"> Rozdział 1 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="ft" value="tak"> Rozdział 2
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   <input type="radio" name="ft" value="tak"> Rozdział 3 <br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   <input type="radio" name="ft" value="tak"> Rozdział 4 <br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   <input type="radio" name="ft" value="tak"> Nie grałem <br>
-    </font></center>
-  </fieldset>
-   <br><br><br>
+                        <input type="radio" id="level_medium" name="level" value="medium">
+                        <label for="level_medium">średniozaawansowany</label><br>
 
-<center size="20"><h1>Minecraft </h1></center>
-</fieldset>
-  <fieldset>
-    <center><font size=4><nobr><u>Czy głosowałeś w mobe vote?</u></nobr>
-<br><br>
-<input type="radio" name="mc" value="tak"> <b>Głosowałem już</b></input><br>
-      &nbsp&nbsp
-<input type="radio" name="mc" value="nie"> <b>Nie głosowałem</b></input> 
-     &nbsp&nbsp
-<input type="radio" name="mc" value="nie"> <b>Wspieram strajk społeczności</b></input> 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Jaki był najlepszy update?: 
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="mc" value="tak"> 1.16<br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="mc" value="tak"> 1.12 <br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="mc" value="tak"> 1.20 <br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="radio" name="mc" value="tak"> 1.19 <br>
+                        <input type="radio" id="leve_pro" name="level" value="pro">
+                        <label for="level_pro">zaawansowany</label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Czy masz dostęp do własnego komputera z grą Minecraft? (Minecraft Premium)</legend>
 
-    </font></center>
-  </fieldset>
-  <br><br><br>
-   <center><nobr><input type="reset" value="Reset" style="height:50px; width:100px"></center>
- </TD> 
-<A HREF="index.html"> WRÓĆ DO POPRZEDNIEJ STRONY </A>
-  <!-- <TD width=850>
-     <fieldset>
-   
- <br><br>
- 
- <br><br>
- </fieldset>
-<br><br><br>
-  <fieldset>
-    
-  </fieldset>
-     <br><br><br>
-  <fieldset>
- 
-  
-  </fieldset>
+                        <input type="radio" id="yes_ownership" name="ownership" value="yes">
+                        <label for="yes_ownership">Tak</label><br>
 
-<fieldset>
+                        <input type="radio" id="no_ownership" name="ownership" value="no">
+                        <label for="no_ownership">Nie</label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Czy masz dostęp do platformy komunikacyjnej np. Discord, na potrzeby warsztatów?
+                        </legend>
 
-</fieldset>
-   </TD>
-  </LI>
+                        <input type="radio" id="yes_communication" name="communication" value="yes">
+                        <label for="yes_communication">Tak</label><br>
+
+                        <input type="radio" id="no_communication" name="communication" value="no">
+                        <label for="no_communication">Nie</label><br>
+                    </fieldset>
+
+                </td>
+                <td width="10%" align="center" valign="middle">
+                    <input type="reset" value="Resetuj">
+                    <br><br>
+                    <input type="submit" value="Wyślij formularz">
+                </td>
+                <td width="30%" align="right" valign="top">
+                    <fieldset align="left">
+                        <legend>Z których broni korzystasz? (możesz wybrać więcej niż 1)</legend>
+
+                        <input type="checkbox" name="weapons" id="sword_weapons" checked>
+                        <label for="sword_weapons">Miecz</label>
+
+                        <input type="checkbox" name="weapons" id="axe_weapons">
+                        <label for="axe_weapons">Siekiera</label> <br>
+
+                        <input type="checkbox" name="weapons" id="bow_weapons">
+                        <label for="bow_weapons">Łuk</label>
+
+                        <input type="checkbox" name="weapons" id="cbow_weapons">
+                        <label for="cbow_weapons">Kusza</label><br>
+                        
+                    </fieldset>
+                    <fieldset align="left">
+                        <legend>Który przedmiot wolisz jako leczący?</legend>
+
+                        <input type="checkbox" name="food" id="gapple_food">
+                        <label for="gapple_food">Złote jabłko</label><br>
+
+                        <input type="checkbox" name="food" id="egapple_food">
+                        <label for="egapple_food">Enchantowane złote jabłko</label><br>
+
+                        <input type="checkbox" name="food" id="steak_food">
+                        <label for="steak_food">Steak</label><br>
+
+                    </fieldset>
+                    <fieldset align="left">
+                        <legend>Który blok budlcowy wolisz?</legend>
+
+                        <input type="checkbox" name="block" id="cbstone_block">
+                        <label for="cbstone_block">Cobblestone</label>
+
+                        <input type="checkbox" name="block" id="wood_block">
+                        <label for="wood_block">Drewno</label>
+
+                        <input type="checkbox" name="block" id="glass_block">
+                        <label for="glass_block">Szkło</label>
+
+                        <input type="checkbox" name="block" id="obs_block">
+                        <label for="obs_block">Obsidian</label>
+
+                        <input type="checkbox" name="block" id="no_block">
+                        <label for="no_block">Nic</label>
+
+                    </fieldset>
+                    <fieldset align="left">
+                        <legend>Gdybyś wygrał w finalnym pojedynku warstatów, jaką nagrodę byś chciał otrzymać?</legend>
+
+                        <select name="price" id="price">
+                            <option value="money">Pieniądze</option>
+                            <option value="keyboard">Klawiatura</option>
+                            <option value="mouse">Myszka</option>
+                            <option value="headphones">Słuchawki</option>
+                            <option value="pendrive">Pendrive</option>
+                        </select>
+
+                    </fieldset>
+                    <fieldset align="left">
+                        <legend>Jeśli będziesz uczestniczył w grupie, podaj jej rozmiar. Zostaw puste jeśli uczestniczysz sam.</legend>
+
+                        <select name="group" id="group">
+                            <option value=""></option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </fieldset>
+                    <fieldset align="left">
+                        <legend>Czy dostanę 6 za ten formularz?</legend>
+
+                        <select name="grade" id="grade">
+                            <option value="yes">Tak</option>
+                            <option value="obviously">Oczywiście</option>
+                            <option value="sure">Pewnie</option>
+                        </select>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <a href="index.html">Storna główna</a>
 </body>
-</html> --> 
+
+</html>
