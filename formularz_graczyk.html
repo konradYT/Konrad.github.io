@@ -16,18 +16,18 @@
         <table width="100%">
             <tr>
                 <td width="30%" align="left" valign="top">
-                    <fieldset>
+                    <fieldset style="background-color:gray;">
                         <legend>płeć</legend>
                         <input type="radio"  name="plec" value="kobieta">kobieta <br>
                         <input type="radio"  name="plec" value="meżczyzna">mężczyzna <br>
                     </fieldset>
-                    <fieldset>
+                    <fieldset style="background-color:gray;">
                         <legend>Czy graleś w cs2 </legend>
                         <input type="radio"  name="cs2" value="grałem">grałem już<br>
                         <input type="radio"  name="cs2" value="nie_grałem">nie grałem jeszcze ale chce <br>
                         <input type="radio"  name="cs2" value="niechcegrać">nie grałem i nie zamierzam <br>
-                    </fieldset>
-                    <fieldset>
+                    </fieldset style="background-color:gray;">
+                    <fieldset style="background-color:gray;">
                         <legend>widziałeś/słyszałeś o tej grze</legend>
 
                         <input type="radio"  name="hear" value="tak"> tak <br>
@@ -35,13 +35,13 @@
                         <input type="radio"  name="hear" value="nie"> nie <br>
                         
                     </fieldset>
-                    <fieldset>
+                    <fieldset style="background-color:gray;">
                         <legend>głosowałem już w mob vote</legend>
                         <input type="radio"  name="vote" value="tak"> tak <br>
 
                         <input type="radio"  name="vote" value="nie"> nie <br>
 
-                        <input type="radio"  name="vote" value="strajk"> nie, strajkuje razem z społecznosćią <br>
+                        <input type="checkbox"  name="vote" value="strajk"> nie, strajkuje razem z społecznosćią <br>
                     </fieldset>
                      <td width="10%" align="center" valign="middle">
                     <input type="reset" value="Resetuj">
@@ -49,84 +49,50 @@
                 </td>
                
                 <td width="30%" align="right" valign="top">
-                    <fieldset align="left">
-                        <legend>Z których broni korzystasz? (możesz wybrać więcej niż 1)</legend>
-
-                        <input type="checkbox" name="weapons" id="sword_weapons" checked>
-                        <label for="sword_weapons">Miecz</label>
-
-                        <input type="checkbox" name="weapons" id="axe_weapons">
-                        <label for="axe_weapons">Siekiera</label> <br>
-
-                        <input type="checkbox" name="weapons" id="bow_weapons">
-                        <label for="bow_weapons">Łuk</label>
-
-                        <input type="checkbox" name="weapons" id="cbow_weapons">
-                        <label for="cbow_weapons">Kusza</label><br>
+                    <fieldset align="left" style="background-color:gray;">
+                        <legend>Dane kontaktowe</legend>
+                        Email<input type="text"  name="email" value="mail"> <br>
+                        Nr tel <input type="text"  name="tel" value="telefon"> <br>
                         
                     </fieldset>
-                    <fieldset align="left">
-                        <legend>Który przedmiot wolisz jako leczący?</legend>
-
-                        <input type="checkbox" name="food" id="gapple_food">
-                        <label for="gapple_food">Złote jabłko</label><br>
-
-                        <input type="checkbox" name="food" id="egapple_food">
-                        <label for="egapple_food">Enchantowane złote jabłko</label><br>
-
-                        <input type="checkbox" name="food" id="steak_food">
-                        <label for="steak_food">Steak</label><br>
+                    <fieldset align="left" style="background-color:gray;">
+                        <legend>Otworzyłeś skrzynke w counter strike? tak <input type="radio" name="skrzynka" value="tak"> nie <input type="radio" name="skrzynka" value="nie"> </legend>
+                        Jeżeli tak: <br>
+                        zwróciło sie? tak <input type="radio" name="skrzynka" value="tak"> nie <input type="radio" name="skrzynka" value="nie"> <br>
+                        i ile <input type="text" name="pieniądze">
 
                     </fieldset>
-                    <fieldset align="left">
-                        <legend>Który blok budlcowy wolisz?</legend>
+                    <fieldset align="left" style="background-color:gray;">
+                        <legend>Zaczałem grać w rozdziale</legend>
+                        <input type="radio"  name="rozdział" value="1">Rozdziale 1 <br>
 
-                        <input type="checkbox" name="block" id="cbstone_block">
-                        <label for="cbstone_block">Cobblestone</label>
+                        <input type="radio"  name="rozdział" value="2"> Rozdziale 2<br>
 
-                        <input type="checkbox" name="block" id="wood_block">
-                        <label for="wood_block">Drewno</label>
+                        <input type="radio"  name="rozdział" value="3"> Rozdziale 3 <br>
+                        
+                        <input type="radio"  name="rozdział" value="4"> Rozdziale 4 <br>
 
-                        <input type="checkbox" name="block" id="glass_block">
-                        <label for="glass_block">Szkło</label>
+                        <input type="radio"  name="rozdział" value="0"> nie grałem  <br>
+                        
+                    </fieldset>
+                    <fieldset align="left" style="background-color:gray;">
+                        <legend> Najlepszy update to</legend>
+                        <input type="radio"  name="update" value="1.12"> Rozdziale 1.12 <br>
 
-                        <input type="checkbox" name="block" id="obs_block">
-                        <label for="obs_block">Obsidian</label>
+                        <input type="radio"  name="update" value="1.16"> Rozdziale 1.16<br>
 
-                        <input type="checkbox" name="block" id="no_block">
-                        <label for="no_block">Nic</label>
+                        <input type="radio"  name="update" value="1.19"> Rozdziale 1.19 <br>
+                        
+                        <input type="radio"  name="update" value="1.20"> Rozdziale 1.20 <br>
+
 
                     </fieldset>
-                    <fieldset align="left">
-                        <legend>Gdybyś wygrał w finalnym pojedynku warstatów, jaką nagrodę byś chciał otrzymać?</legend>
+                    <fieldset align="left" style="background-color:gray;">
+                            <legend> dane osobiste</legend>
+                         
+                        <input type="text" id="name" name="name" value="" placeholder="Imie i nazwisko"> <br>
 
-                        <select name="price" id="price">
-                            <option value="money">Pieniądze</option>
-                            <option value="keyboard">Klawiatura</option>
-                            <option value="mouse">Myszka</option>
-                            <option value="headphones">Słuchawki</option>
-                            <option value="pendrive">Pendrive</option>
-                        </select>
-
-                    </fieldset>
-                    <fieldset align="left">
-                        <legend>Jeśli będziesz uczestniczył w grupie, podaj jej rozmiar. Zostaw puste jeśli uczestniczysz sam.</legend>
-
-                        <select name="group" id="group">
-                            <option value=""></option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </fieldset>
-                    <fieldset align="left">
-                        <legend>Czy dostanę 6 za ten formularz?</legend>
-
-                        <select name="grade" id="grade">
-                            <option value="yes">Tak</option>
-                            <option value="obviously">Oczywiście</option>
-                            <option value="sure">Pewnie</option>
-                        </select>
+                            czy chesz być anonimowy? tak <input type="radio" name="anonim" value="tak"> nie <input type="radio" name="anonim" value="nie"> <br>
                     </fieldset>
                 </td>
             </tr>
