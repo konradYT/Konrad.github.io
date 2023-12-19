@@ -18,52 +18,36 @@
                 <td width="30%" align="left" valign="top">
                     <fieldset>
                         <legend>płeć</legend>
-                        <input type="radio"  name="meżczyzna" value="plec">kobieta <br>
-                        <input type="text"  name="kobieta" value="plec">mężczyzna <br>
+                        <input type="radio"  name="plec" value="kobieta">kobieta <br>
+                        <input type="radio"  name="plec" value="meżczyzna">mężczyzna <br>
                     </fieldset>
                     <fieldset>
-                        <legend>Nick w grze i super sekretne hasło (NIE KONTA MINECRAFT)</legend>
-                        <input type="text" id="nick" name="nick" maxlength="16" value="" placeholder="max. 16 znaków">
-                        <input type="password" name="passcode" id="pass">
+                        <legend>Czy graleś w cs2 </legend>
+                        <input type="radio"  name="cs2" value="grałem">grałem już<br>
+                        <input type="radio"  name="cs2" value="nie_grałem">nie grałem jeszcze ale chce <br>
+                        <input type="radio"  name="cs2" value="niechcegrać">nie grałem i nie zamierzam <br>
                     </fieldset>
                     <fieldset>
-                        <legend>Poziom zaawansowania w trybie PvP:</legend>
+                        <legend>widziałeś/słyszałeś o tej grze</legend>
 
-                        <input type="radio" id="level_noob" name="level" value="noob">
-                        <label for="level_noob">początkujący</label><br>
+                        <input type="radio"  name="hear" value="tak"> tak <br>
 
-                        <input type="radio" id="level_medium" name="level" value="medium">
-                        <label for="level_medium">średniozaawansowany</label><br>
-
-                        <input type="radio" id="leve_pro" name="level" value="pro">
-                        <label for="level_pro">zaawansowany</label><br>
+                        <input type="radio"  name="hear" value="nie"> nie <br>
+                        
                     </fieldset>
                     <fieldset>
-                        <legend>Czy masz dostęp do własnego komputera z grą Minecraft? (Minecraft Premium)</legend>
+                        <legend>głosowałem już w mob vote</legend>
+                        <input type="radio"  name="vote" value="tak"> tak <br>
 
-                        <input type="radio" id="yes_ownership" name="ownership" value="yes">
-                        <label for="yes_ownership">Tak</label><br>
+                        <input type="radio"  name="vote" value="nie"> nie <br>
 
-                        <input type="radio" id="no_ownership" name="ownership" value="no">
-                        <label for="no_ownership">Nie</label><br>
+                        <input type="radio"  name="vote" value="strajk"> nie, strajkuje razem z społecznosćią <br>
                     </fieldset>
-                    <fieldset>
-                        <legend>Czy masz dostęp do platformy komunikacyjnej np. Discord, na potrzeby warsztatów?
-                        </legend>
-
-                        <input type="radio" id="yes_communication" name="communication" value="yes">
-                        <label for="yes_communication">Tak</label><br>
-
-                        <input type="radio" id="no_communication" name="communication" value="no">
-                        <label for="no_communication">Nie</label><br>
-                    </fieldset>
-
-                </td>
-                <td width="10%" align="center" valign="middle">
+                     <td width="10%" align="center" valign="middle">
                     <input type="reset" value="Resetuj">
-                    <br><br>
-                    <input type="submit" value="Wyślij formularz">
                 </td>
+                </td>
+               
                 <td width="30%" align="right" valign="top">
                     <fieldset align="left">
                         <legend>Z których broni korzystasz? (możesz wybrać więcej niż 1)</legend>
